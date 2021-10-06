@@ -2,17 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "store-frontend"
+  title: "Store Frontend"
   description: "Frontend of Store"
   tags:
     - react
   links:
-    - url: http://dashboard.com
-      title: Dashboard
+    - url: http://monitor.com
+      title: Monitoring
       icon: dashboard
-    
-  annotations:
-    github.com/project-slug: oliverwehrens/backstage-io-demo-catalog
-    backstage.io/techdocs-ref: dir:./frontend/
 spec:
   type: service
   lifecycle: production

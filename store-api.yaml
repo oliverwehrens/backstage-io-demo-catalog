@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
   name: "store-api"
   title: "Store API"
@@ -11,9 +11,6 @@ metadata:
       title: Dashboard
       icon: dashboard
     
-  annotations:
-    github.com/project-slug: oliverwehrens/backstage-io-demo-catalog
-    backstage.io/techdocs-ref: dir:./backend-api/
 spec:
   type: service
   lifecycle: production
@@ -22,5 +19,6 @@ spec:
     - priceApi
     - itemsApi
   system: shop
-  definition:
-    $text: https://github.com/APIs-guru/openapi-directory/blob/main/APIs/archive.org/search/1.0.0/openapi.yaml
+  # if kind API
+  # definition:
+  #   $text: https://github.com/APIs-guru/openapi-directory/blob/main/APIs/archive.org/search/1.0.0/openapi.yaml
