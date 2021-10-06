@@ -22,3 +22,5 @@ spec:
     - priceApi
     - itemsApi
   system: shop
+  definition:
+    $text: https://petstore.swagger.io/v2/swagger.json
