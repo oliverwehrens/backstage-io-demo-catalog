@@ -1,8 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
-  name: "store-backend"
+  name: "store-api"
+  title: "Store API"
   description: "Backend of Store"
+  tags:
+    - go
   links:
     - url: http://dashboard.com
       title: Dashboard
@@ -10,7 +13,7 @@ metadata:
     
   annotations:
     github.com/project-slug: oliverwehrens/backstage-io-demo-catalog
-    backstage.io/techdocs-ref: dir:./backend/
+    backstage.io/techdocs-ref: dir:./backend-api/
 spec:
   type: service
   lifecycle: production
@@ -18,3 +21,4 @@ spec:
   provideApis:
     - priceApi
     - itemsApi
+  system: shop

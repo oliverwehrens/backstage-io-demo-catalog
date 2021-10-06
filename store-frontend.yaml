@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: "store-frontend"
   description: "Frontend of Store"
+  tags:
+    - react
   links:
     - url: http://dashboard.com
       title: Dashboard
@@ -18,4 +20,5 @@ spec:
   consumesApis:
     - priceApi
     - itemsApi
+  
 
