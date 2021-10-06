@@ -8,7 +8,7 @@ metadata:
     - go
   links:
     - url: http://dashboard.com
-      title: Dashboard
+      title: Dashboard2
       icon: dashboard
     
   annotations:
