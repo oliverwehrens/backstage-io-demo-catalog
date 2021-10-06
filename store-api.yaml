@@ -23,4 +23,4 @@ spec:
     - itemsApi
   system: shop
   definition:
-    $text: https://petstore.swagger.io/v2/swagger.json
+    $text: https://github.com/APIs-guru/openapi-directory/blob/main/APIs/archive.org/search/1.0.0/openapi.yaml
