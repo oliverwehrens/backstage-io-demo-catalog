@@ -17,6 +17,7 @@ spec:
   type: service
   lifecycle: production
   owner: "team-frontend"
+  system: shop
   consumesApis:
     - priceApi
     - itemsApi
