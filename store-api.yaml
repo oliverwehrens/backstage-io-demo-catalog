@@ -15,6 +15,7 @@ spec:
   type: service
   lifecycle: production
   owner: "team-backend"
+  dependsOn: ['resource:items-db']
   provideApis:
     - priceApi
     - itemsApi
